@@ -1,8 +1,11 @@
 numpy
-
+matplotlib
+h5py
+scipy
+Pillow
 
 # interactive
-jupyter
-ipykernel
-notebook
+# jupyter
+# ipykernel
+# notebook
 jupyterlab
