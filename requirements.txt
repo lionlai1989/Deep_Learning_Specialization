@@ -1,0 +1,8 @@
+numpy
+
+
+# interactive
+jupyter
+ipykernel
+notebook
+jupyterlab
