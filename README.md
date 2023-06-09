@@ -119,3 +119,6 @@ https://faculty.cc.gatech.edu/~afb/classes/CS4495-Fall2014/
 ```
 python3.10 -m venv venv_deep_learning && source venv_deep_learning/bin/activate && python3 -m pip install --upgrade pip setuptools && python3 -m pip install -r requirements.txt
 ```
+
+### NOTE
+Make github repository to public so that the images in jupyter notebook can be displayes correctly.
