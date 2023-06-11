@@ -3,6 +3,7 @@ matplotlib
 h5py
 scipy
 Pillow
+scikit-learn
 
 # interactive
 # jupyter
