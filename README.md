@@ -122,3 +122,11 @@ python3.10 -m venv venv_deep_learning && source venv_deep_learning/bin/activate 
 
 ### NOTE
 Make github repository to public so that the images in jupyter notebook can be displayes correctly.
+
+
+### Some useful references in each course.
+- Course 1:
+  - [Implementing a Neural Network from Scratch in Python – An Introduction](https://github.com/dennybritz/nn-from-scratch)
+  - [Why normalize images by subtracting dataset's image mean, instead of the current image mean in deep learning?](https://stats.stackexchange.com/questions/211436/why-normalize-images-by-subtracting-datasets-image-mean-instead-of-the-current)
+  - [CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/neural-networks-case-study/)
+  - [Autoreload of modules in IPython](https://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython)
