@@ -2,6 +2,7 @@
 This github package hosts my notes and programming codes when taking the course, Introduction to Computer Vision, by Coursera and Georgia tech. 
 
 ## Description
+Use "python3.10" and "numpy >= 1.20"
 
 ## Getting Started
 All the results can be reproduced by following the instructions below.

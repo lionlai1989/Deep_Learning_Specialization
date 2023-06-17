@@ -4,6 +4,10 @@ h5py
 scipy
 Pillow
 scikit-learn
+tensorflow==2.12.*
+
+# DeepLearning AI
+dlai_tools
 
 # interactive
 # jupyter
