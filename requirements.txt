@@ -5,6 +5,7 @@ scipy
 Pillow
 scikit-learn
 tensorflow==2.12.*
+pandas
 
 # DeepLearning AI
 dlai_tools
