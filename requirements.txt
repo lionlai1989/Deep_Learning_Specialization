@@ -1,11 +1,15 @@
+tensorflow==2.12.*
+# tensorflow==2.3.* # coursera uses 2.3.0
+# protobuf==3.20.*
+
 numpy
 matplotlib
 h5py
 scipy
 Pillow
 scikit-learn
-tensorflow==2.12.*
 pandas
+imageio
 
 # DeepLearning AI
 dlai_tools
