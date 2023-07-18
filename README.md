@@ -1,7 +1,28 @@
 # Deep Learning Specialization
-This github package hosts my notes and programming codes when taking the course, Introduction to Computer Vision, by Coursera and Georgia tech. 
+This GitHub repository contains all the necessary materials for the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning). It encompasses my own solutions to the practice problems, along with my personal notes that I have taken throughout the course. This repository serves as an invaluable resource for me, aiding in the development of a strong foundation in deep learning skills.
 
 ## Description
+The Deep Learning Specialization explores fundamental principles in deep learning and is divided into five series courses, each offering comprehensive explanation and unique insights into this dynamic field. In the following sections, I summarize each course with a brief introduction and illustrative figures.
+
+- Neural Networks and Deep Learning:
+
+  The first course explains why we need neural networks and what neural networks can solve but conventional algorithms (e.g., linear regression and logistic regression) can't. Moreover, why using **deep** neural networks instead of shallow neural networks is explained and demonstrated with intuitive examples in the Jupyter Notebook.
+
+- Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization:
+
+  The second course focuses on various techniques that aid in constructing better neural networks. It covers the significance of random initialization and how it effectively addresses the issues of exploding or vanishing gradients. Additionally, the course explores the normalization of data and hidden layers, various regularization methods including L2 regularization, dropout, and improved ways to perform gradient descent, such as incorporating momentum.
+
+- Structuring Machine Learning Projects:
+
+  The third course demonstrates techniques for diagnosing errors in machine learning systems, prioritizing strategies to reduce these errors, and understanding complex ML settings. These settings include scenarios such as mismatched training/test sets and comparing or surpassing human-level performance, also known as Bayes optimal error. Moreover, the course covers the application of end-to-end learning, transfer learning, and multi-task learning.
+
+- Convolutional Neural Networks (CNN):
+
+  While disregarding the constraints of available training data and computational resources, a fully connected network has the potential to perform all the tasks a CNN can accomplish. This course explains the rationale behind utilizing CNNs to replace fully connected networks. It then covers the foundational concepts necessary to construct a CNN, followed by an introduction to classic networks such as LeNet-5, AlexNet, and VGG-16. Furthermore, the course introduces recent and popular networks, including Residual and Inception networks, and comprehensive explanations of the You Only Look Once (YOLO) algorithm and U-Net.
+
+- Sequence Models:
+
+
 Use "python3.10" and "numpy >= 1.20"
 
 ## Getting Started
