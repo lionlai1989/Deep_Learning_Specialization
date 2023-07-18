@@ -1,12 +1,13 @@
 # Deep Learning Specialization
-This GitHub repository contains all the necessary materials for the [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning). It encompasses my own solutions to the practice problems, along with my personal notes that I have taken throughout the course. This repository serves as an invaluable resource for me, aiding in the development of a strong foundation in deep learning skills.
+
+This GitHub repository comprises a comprehensive collection of materials for the course of [Deep Learning Specialization, Coursera/DeepLearning.AI](https://www.coursera.org/specializations/deep-learning), including my own solutions to the practice problems and personal notes accumulated during the course. It serves as an invaluable resource for me, aiding in developing a solid foundation for my learning journey in deep learning.
 
 ## Description
-The Deep Learning Specialization explores fundamental principles in deep learning and is divided into five series courses, each offering comprehensive explanation and unique insights into this dynamic field. In the following sections, I summarize each course with a brief introduction and illustrative figures.
+The Deep Learning Specialization explores fundamental principles in deep learning and is divided into five series courses, each offering thorough explanation and unique insights into this dynamic field. In the following sections, I summarize each course with a brief introduction and illustrative figures.
 
 - Neural Networks and Deep Learning:
 
-  The first course explains why we need neural networks and what neural networks can solve but conventional algorithms (e.g., linear regression and logistic regression) can't. Moreover, why using **deep** neural networks instead of shallow neural networks is explained and demonstrated with intuitive examples in the Jupyter Notebook.
+  The first course explains what are neural networks and what neural networks can solve but conventional algorithms (e.g., linear regression and logistic regression) can't. Moreover, why using **deep** neural networks instead of shallow neural networks is explained and demonstrated with intuitive examples in the Jupyter Notebook.
 
 - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization:
 
@@ -14,7 +15,7 @@ The Deep Learning Specialization explores fundamental principles in deep learnin
 
 - Structuring Machine Learning Projects:
 
-  The third course demonstrates techniques for diagnosing errors in machine learning systems, prioritizing strategies to reduce these errors, and understanding complex ML settings. These settings include scenarios such as mismatched training/test sets and comparing or surpassing human-level performance, also known as Bayes optimal error. Moreover, the course covers the application of end-to-end learning, transfer learning, and multi-task learning.
+  The third course demonstrates techniques for diagnosing errors in machine learning systems, prioritizing strategies to reduce these errors, and understanding complex ML settings. These settings include scenarios such as mismatched training/test sets and comparing or surpassing human-level performance, also known as Bayes optimal error. Moreover, the course presents the details of end-to-end learning, transfer learning, and multi-task learning.
 
 - Convolutional Neural Networks (CNN):
 
