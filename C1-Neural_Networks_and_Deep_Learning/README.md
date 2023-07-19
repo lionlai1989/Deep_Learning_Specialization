@@ -5,11 +5,11 @@ The course, Neural Networks and Deep Learning, provides a comprehensive introduc
 ## Description
 This section provides a concise summary of each assignment in the course, accompanied by brief descriptions and a few figures.
 
-- W2A1: [Python Basics with Numpy](https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2A1-Python_Basics_with_Numpy/Python_Basics_with_Numpy.ipynb)
+- W2A1: [Python Basics with Numpy](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2A1-Python_Basics_with_Numpy/Python_Basics_with_Numpy.html)
 
   It helps me familiarize myself with various fundamental concepts in deep learning, such as the exponential function, sigmoid function and its derivative, softmax function, L1 and L2 loss functions, and more.
   
-- W2A2: [Logistic Regression with a Neural Network mindset](https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/Logistic_Regression_with_a_Neural_Network_mindset.ipynb)
+- W2A2: [Logistic Regression with a Neural Network mindset](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/Logistic_Regression_with_a_Neural_Network_mindset.html)
 
   Logistic regression can be viewed as a shallow neural network with no hidden layers. I constructed a shallow neural network without any hidden layers to perform image classification, specifically distinguishing between cat and non-cat images. The implementation encompassed both forward and backward propagation, as well as inference.
   
