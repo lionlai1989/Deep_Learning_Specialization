@@ -4,7 +4,7 @@ import sklearn
 import sklearn.datasets
 import sklearn.linear_model
 
-def plot_decision_boundary(model, X, y):
+def plot_decision_boundary(model, X, y, filename=None):
     # Set min and max values and give it some padding
     x_min, x_max = X[0, :].min() - 1, X[0, :].max() + 1
     y_min, y_max = X[1, :].min() - 1, X[1, :].max() + 1
@@ -20,6 +20,8 @@ def plot_decision_boundary(model, X, y):
     plt.xlabel('x1')
     plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
     
+    if filename is not None:
+        plt.savefig(filename, bbox_inches='tight')
 
 def sigmoid(x):
     """
