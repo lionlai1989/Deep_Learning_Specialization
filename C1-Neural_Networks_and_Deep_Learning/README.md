@@ -29,10 +29,11 @@ This section provides a concise summary of each assignment in the course, accomp
     <figcaption style="font-size: small;"><br>The left figure shows logistic regression cannot separate a dataset that is not linearly separable while the right figure shows that a neural network using one hidden layer with four units can easily separate the data.</figcaption>
     </figure>
 
-- W4A1:
+- W4A1: [Building your Deep Neural Network Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W4A1-Building_your_Deep_Neural_Network_Step_by_Step/Building_your_Deep_Neural_Network_Step_by_Step.html)
 
+  It constructs all the fundamental elements necessary to build a deep neural network from scratch using NumPy. These building blocks serve as the foundation for constructing deep neural networks in the next practice. 
 
-- W4A2:
+- W4A2: [](https://htmlpreview.github.io/?)
 
 
 
