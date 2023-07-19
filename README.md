@@ -60,7 +60,7 @@ Now you are ready to go to each Jupyter Notebook and run the code. Please rememb
 
 ## Contributing
 
-Your feedback, comments, and questions about this project are welcome, as are any contributions you'd like to make. Please feel free to create an issue or a pull request in this repository. Together, let's improve this template and make our life easier.
+Any feedback, comments, and questions about this repository are welcome. However, I would like to clarify that this repository serves as a personal record of my learning history, and therefore I will not accept any form of pull requests or merge requests.
 
 ## Authors
 
