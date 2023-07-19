@@ -16,16 +16,15 @@ This section provides a concise summary of each assignment in the course, accomp
   
   <figure>
   <img src="./W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/my_images/ikura.36.png" alt="my alt text" height="300"/>
-  <figcaption>y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. I am the cutest cat in the world.</figcaption>
+  <figcaption><br>y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. I am the cutest cat in the world.</figcaption>
   </figure>
 
 - W3A1: [Planar Data Classification with One Hidden Layer](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W3A1-Planar_Data_Classification_with_One_Hidden_Layer/Planar_data_classification_with_one_hidden_layer.html)
 
   It shows that logistic regression cannot perform well on a dataset that is not linearly separable. However, the same dataset can be easily classified using a shallow neural network with just one hidden layer.
 
-  <figure>
-  <img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/logistic_regression_output.png" alt="my alt text" height="300"/>
-  <img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/nn_1layer_4units_output.png" alt="my alt text" height="300"/>
+  <figure float="left">
+  <img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/logistic_regression_output.png" height="300"/>
   <figcaption>The left figure shows logistic regression cannot separate a dataset that is not linearly separable while the right figure shows that a neural network using one hidden layer with four units can easily separate the data.</figcaption>
   </figure>
 
