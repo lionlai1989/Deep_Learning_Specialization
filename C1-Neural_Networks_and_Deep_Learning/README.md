@@ -15,7 +15,7 @@ This section provides a concise summary of each assignment in the course, accomp
   
   <figure>
   <img src="./W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/my_images/ikura.36.png" alt="my alt text" height="400"/>
-  <figcaption>I am @ikura.36 from Japan. I am the cutest cat in the world.</figcaption>
+  <figcaption>y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. I am the cutest cat in the world.</figcaption>
   </figure>
 
 - W3A1:
