@@ -5,8 +5,13 @@ This page comprises a comprehensive collection of materials for the course of [D
 ## Description
 The Deep Learning Specialization explores fundamental principles in deep learning and is divided into five series courses, each offering thorough explanation and unique insights into this dynamic field. In the following sections, I summarize each course with a brief introduction and illustrative figures.
 
-- Week 2:
+- W2A1: [Python Basics with Numpy](https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2A1-Python_Basics_with_Numpy/Python_Basics_with_Numpy.ipynb)
+  
+  
+- W2A2:
 
-- Week 3:
+- W3A1:
 
-- Week 4:
+- W4A1:
+
+- W4A2:
