@@ -14,7 +14,7 @@ Logistic regression can be viewed as a shallow neural network with no hidden lay
   
 <figure>
 <img src="./W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/my_images/ikura.36.png" alt="my alt text" height="300"/>
-<figcaption style="font-size: small;"><br>y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. I am the cutest cat in the world.</figcaption>
+<figcaption style="font-size: small;">y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. I am the cutest cat in the world.</figcaption>
 </figure>
 
 - W3A1: [Planar Data Classification with One Hidden Layer](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W3A1-Planar_Data_Classification_with_One_Hidden_Layer/Planar_data_classification_with_one_hidden_layer.html)  
@@ -23,7 +23,7 @@ It shows that logistic regression cannot perform well on a dataset that is not l
 <figure float="left">
 <img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/logistic_regression_output.png" height="300"/>
 <img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/nn_1layer_4units_output.png" height="300"/>
-<figcaption style="font-size: small;"><br>The left figure shows logistic regression cannot separate a dataset that is not linearly separable while the right figure shows that a neural network using one hidden layer with four units can easily separate the data.</figcaption>
+<figcaption style="font-size: small;">The left figure shows logistic regression cannot separate a dataset that is not linearly separable while the right figure shows that a neural network using one hidden layer with four units can easily separate the data.</figcaption>
 </figure>
 
 - W4A1: [Building your Deep Neural Network Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W4A1-Building_your_Deep_Neural_Network_Step_by_Step/Building_your_Deep_Neural_Network_Step_by_Step.html)  
@@ -34,7 +34,7 @@ A deep 4-layer neural network is built to classify between cat and non-cat image
 
 <figure>
 <img src="./W4A2-Deep_Neural_Network_Application/my_images/ikura.36.png" alt="my alt text" height="300"/>
-<figcaption style="font-size: small;"><br>y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. It looks like your deep neural network can recognize me. Good Job!</figcaption>
+<figcaption style="font-size: small;">y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. It looks like your deep neural network can recognize me. Good Job!</figcaption>
 </figure>
 
 <figure>
