@@ -23,33 +23,11 @@ Imagine yourself as Geoffrey Hinton back in 2012 when you were implementing back
 - W2A1: [Optimization Methods](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization/W2A1-Optimization_Methods/Optimization_methods.html)  
 Optimization methods, such as mini-batch, RMSProp, Adam, etc., almost always improve the training process. This report provides intuitive visualizations and code snippets to demonstrate how these optimizations are conducted and influence performance during inference.  
 
-- W4A2: [Deep Neural Network Application](https://htmlpreview.github.io/?)  
-A deep 4-layer neural network is built to classify between cat and non-cat images by using all the building blocks in the previous practice. The result shows that the 4-layer neural network has better performance (80%) than the W2A2's 2-layer neural network (72%) on the same test set.  
+- W3A1: [Introduction_to_Tensorflow](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization/W3A1-Introduction_to_Tensorflow/Introduction_to_Tensorflow.html)  
+Until now, I've been implementing all the mechanics of neural networks with NumPy without using any machine learning frameworks. In this assignment, I will familiarize myself with TensorFlow since it will be used throughout this specialization. It's unfortunate that this course doesn't choose PyTorch, considering that PyTorch surpassed TensorFlow in 2023.  
 
-<figure>
-<img src="./W4A2-Deep_Neural_Network_Application/my_images/ikura.36.png" alt="my alt text" height="300"/>
-<figcaption style="font-size: small;">y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. It looks like your deep neural network can recognize me. Good Job!</figcaption>
-</figure>
-
-<figure>
-<img src="./W4A2-Deep_Neural_Network_Application/my_images/neneko.png" alt="my alt text" height="300"/>
-<figcaption style="font-size: small;">y = 1.0, your L-layer model predicts a "cat" picture. --> I am Neneko from Taiwan. It looks like your deep neural network misrecognize me as a real cat. Hahahaha ...<br>I am also the naughtiest cat in the world.</figcaption>
-</figure>
-
-
-<figure float="left">
-<img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/logistic_regression_output.png" height="300"/>
-<img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/nn_1layer_4units_output.png" height="300"/>
-<figcaption style="font-size: small;">The left figure shows logistic regression cannot separate a dataset that is not linearly separable while the right figure shows that a neural network using one hidden layer with four units can easily separate the data.</figcaption>
-</figure>
 ## Reference:
 
-- Week 2:
-  - [Implementing a Neural Network from Scratch in Python – An Introduction](https://github.com/dennybritz/nn-from-scratch) (Denny Britz, 2015)
-  - [Why normalize images by subtracting dataset's image mean, instead of the current image mean in deep learning?](https://stats.stackexchange.com/questions/211436/why-normalize-images-by-subtracting-datasets-image-mean-instead-of-the-current) (Stack Exchange)
-
 - Week 3:
-  - [CS231n: Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/neural-networks-case-study/) (Stanford University)
-
-- Week 4:
-  - [Autoreload of modules in IPython](https://stackoverflow.com/questions/1907993/autoreload-of-modules-in-ipython) (Stack Overflow)
+  - [Introduction to gradients and automatic differentiation](https://www.tensorflow.org/guide/autodiff) (TensorFlow Documentation)
+  - [tf.GradientTape](https://www.tensorflow.org/api_docs/python/tf/GradientTape) (TensorFlow Documentation)
