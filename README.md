@@ -13,15 +13,15 @@ The Deep Learning Specialization explores fundamental principles in deep learnin
 
   The second course focuses on various techniques that aid in constructing better neural networks. It covers the significance of random initialization and how it effectively addresses the issues of exploding or vanishing gradients. Additionally, the course explores the normalization of data and hidden layers, various regularization methods including L2 regularization, dropout, and improved ways to perform gradient descent, such as incorporating momentum.
 
-- Structuring Machine Learning Projects:
+- [Structuring Machine Learning Projects](https://github.com/lionlai1989/Deep_Learning_Specialization/tree/master/C3-Structuring_Machine_Learning_Projects):
 
   The third course demonstrates techniques for diagnosing errors in machine learning systems, prioritizing strategies to reduce these errors, and understanding complex ML settings. These settings include scenarios such as mismatched training/test sets and comparing or surpassing human-level performance, also known as Bayes optimal error. Moreover, the course presents the details of end-to-end learning, transfer learning, and multi-task learning.
 
-- Convolutional Neural Networks (CNN):
+- [Convolutional Neural Networks (CNN)](https://github.com/lionlai1989/Deep_Learning_Specialization/tree/master/C4-Convolutional_Neural_Networks):
 
   While disregarding the constraints of available training data and computational resources, a fully connected network has the potential to perform all the tasks a CNN can accomplish. This course explains the rationale behind utilizing CNNs to replace fully connected networks. It then covers the foundational concepts necessary to construct a CNN, followed by an introduction to classic networks such as LeNet-5, AlexNet, and VGG-16. Furthermore, the course introduces recent and popular networks, including Residual and Inception networks, and comprehensive explanations of the You Only Look Once (YOLO) algorithm and U-Net.
 
-- Sequence Models:
+- Sequence Models (In progress):
 
 
 Use "python3.10" and "numpy >= 1.20"
