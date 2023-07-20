@@ -8,7 +8,7 @@ This section provides a concise summary of each assignment in the course, accomp
 - W2A1: [Initialization](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization/W1A1-Initialization/Initialization.html)  
 Initialization plays an important role in training neural networks. Zero initialization fails to break the symmetry, leading to no reduction in the cost. On the other hand, initializing weights and biases randomly does break the symmetry, but it requires more time to optimize the network. However, using He initialization demonstrates that it achieves the lowest cost in the least amount of time.
 
-- W2A2: [Logistic Regression with a Neural Network mindset](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/Logistic_Regression_with_a_Neural_Network_mindset.html)  
+- W2A2: [Regularization](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization/W1A2-Regularization/Regularization.html)  
 Logistic regression can be viewed as a shallow neural network with no hidden layers. I constructed a shallow neural network without any hidden layers to perform image classification, specifically distinguishing between cat and non-cat images. The implementation encompassed both forward and backward propagation, as well as inference.  
 
 <figure>
