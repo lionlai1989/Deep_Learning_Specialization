@@ -200,7 +200,7 @@ def predict(X, y, parameters):
     """
     
     m = X.shape[1]
-    p = np.zeros((1,m), dtype = np.int)
+    p = np.zeros((1,m), dtype = int)
     
     # Forward propagation
     a3, caches = forward_propagation(X, parameters)
@@ -307,7 +307,7 @@ def load_planar_dataset(randomness, seed):
 
     return X, Y
 
-def plot_decision_boundary(model, X, y):
+def plot_decision_boundary(model, X, y, filename=None):
     # Set min and max values and give it some padding
     x_min, x_max = X[0, :].min() - 1, X[0, :].max() + 1
     y_min, y_max = X[1, :].min() - 1, X[1, :].max() + 1
@@ -322,8 +322,11 @@ def plot_decision_boundary(model, X, y):
     plt.ylabel('x2')
     plt.xlabel('x1')
     plt.scatter(X[0, :], X[1, :], c=y, cmap=plt.cm.Spectral)
-    plt.show()
     
+    if filename is not None:
+        plt.savefig(filename, bbox_inches='tight')
+    plt.show()
+
 def load_2D_dataset():
     data = scipy.io.loadmat('datasets/data.mat')
     train_X = data['X'].T

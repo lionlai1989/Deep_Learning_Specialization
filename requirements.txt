@@ -2,7 +2,7 @@ tensorflow==2.12.*
 # tensorflow==2.3.* # coursera uses 2.3.0
 # protobuf==3.20.*
 
-numpy
+numpy # 1.24.3
 matplotlib
 h5py
 scipy

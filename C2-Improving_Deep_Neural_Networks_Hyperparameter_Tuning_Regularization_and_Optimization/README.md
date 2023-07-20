@@ -6,14 +6,15 @@
 This section provides a concise summary of each assignment in the course, accompanied by brief descriptions and a few figures.
 
 - W2A1: [Initialization](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization/W1A1-Initialization/Initialization.html)  
-Initialization plays an important role in training neural networks. Zero initialization fails to break the symmetry, leading to no reduction in the cost. On the other hand, initializing weights and biases randomly does break the symmetry, but it requires more time to optimize the network. However, using He initialization demonstrates that it achieves the lowest cost in the least amount of time.
+Initialization plays an important role in training neural networks. Zero initialization fails to break the symmetry, leading to no reduction in the cost. On the other hand, initializing weights and biases randomly does break the symmetry, but it requires more time to optimize the network. However, using He initialization demonstrates that it achieves the lowest cost in the least amount of time.  
 
 - W2A2: [Regularization](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization/W1A2-Regularization/Regularization.html)  
-Logistic regression can be viewed as a shallow neural network with no hidden layers. I constructed a shallow neural network without any hidden layers to perform image classification, specifically distinguishing between cat and non-cat images. The implementation encompassed both forward and backward propagation, as well as inference.  
+Neural networks without regularization tend to overfit the training data, resulting in decreased performance during inference time. Applying L2 regularization and dropout techniques helps prevent neural networks from exhibiting high variance, thus improving generalization and robustness.  
 
-<figure>
-<img src="./W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/my_images/ikura.36.png" alt="my alt text" height="300"/>
-<figcaption style="font-size: small;">y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. I am the cutest cat in the world.</figcaption>
+<figure float="left">
+<img src="./W1A2-Regularization/experiment_output/nn_no_regularization.png" width="400"/>
+<img src="./W1A2-Regularization/experiment_output/nn_l2.png" width="400"/>
+<img src="./W1A2-Regularization/experiment_output/nn_dropout.png" width="400"/>
 </figure>
 
 - W3A1: [Planar Data Classification with One Hidden Layer](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W3A1-Planar_Data_Classification_with_One_Hidden_Layer/Planar_data_classification_with_one_hidden_layer.html)  
