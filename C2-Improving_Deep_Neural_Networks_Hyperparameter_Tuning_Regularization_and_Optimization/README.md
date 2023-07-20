@@ -20,14 +20,8 @@ Neural networks without regularization tend to overfit the training data, result
 - W1A3: [Gradient Checking](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization/W1A3-Gradient_Checking/Gradient_Checking.html)  
 Imagine yourself as Geoffrey Hinton back in 2012 when you were implementing backpropagation on a neural network for the first time. How did you ensure that your implementation was correct? Like any other research, how could you be sure about the result if it had never been done before? Gradient checking provided a way to verify the accuracy of your backpropagation.  
 
-- W4A1: [Building your Deep Neural Network Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W4A1-Building_your_Deep_Neural_Network_Step_by_Step/Building_your_Deep_Neural_Network_Step_by_Step.html)  
-It constructs all the fundamental elements necessary to build a deep neural network from scratch using NumPy. These building blocks serve as the foundation for constructing deep neural networks in the next practice.  
-
-<figure float="left">
-<img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/logistic_regression_output.png" height="300"/>
-<img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/nn_1layer_4units_output.png" height="300"/>
-<figcaption style="font-size: small;">The left figure shows logistic regression cannot separate a dataset that is not linearly separable while the right figure shows that a neural network using one hidden layer with four units can easily separate the data.</figcaption>
-</figure>
+- W2A1: [Optimization Methods](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization/W2A1-Optimization_Methods/Optimization_methods.html)  
+Optimization methods, such as mini-batch, RMSProp, Adam, etc., almost always improve the training process. This report provides intuitive visualizations and code snippets to demonstrate how these optimizations are conducted and influence performance during inference.  
 
 - W4A2: [Deep Neural Network Application](https://htmlpreview.github.io/?)  
 A deep 4-layer neural network is built to classify between cat and non-cat images by using all the building blocks in the previous practice. The result shows that the 4-layer neural network has better performance (80%) than the W2A2's 2-layer neural network (72%) on the same test set.  
@@ -43,6 +37,11 @@ A deep 4-layer neural network is built to classify between cat and non-cat image
 </figure>
 
 
+<figure float="left">
+<img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/logistic_regression_output.png" height="300"/>
+<img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/nn_1layer_4units_output.png" height="300"/>
+<figcaption style="font-size: small;">The left figure shows logistic regression cannot separate a dataset that is not linearly separable while the right figure shows that a neural network using one hidden layer with four units can easily separate the data.</figcaption>
+</figure>
 ## Reference:
 
 - Week 2:
