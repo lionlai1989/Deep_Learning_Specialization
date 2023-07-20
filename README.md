@@ -9,7 +9,7 @@ The Deep Learning Specialization explores fundamental principles in deep learnin
 
   The first course explains what are neural networks and what neural networks can solve but conventional algorithms (e.g., linear regression and logistic regression) can't. Moreover, why using **deep** neural networks instead of shallow neural networks is explained and demonstrated with intuitive examples in the Jupyter Notebook.
 
-- Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization:
+- [Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](https://github.com/lionlai1989/Deep_Learning_Specialization/tree/master/C2-Improving_Deep_Neural_Networks_Hyperparameter_Tuning_Regularization_and_Optimization):
 
   The second course focuses on various techniques that aid in constructing better neural networks. It covers the significance of random initialization and how it effectively addresses the issues of exploding or vanishing gradients. Additionally, the course explores the normalization of data and hidden layers, various regularization methods including L2 regularization, dropout, and improved ways to perform gradient descent, such as incorporating momentum.
 
