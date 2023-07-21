@@ -1,5 +1,6 @@
 # Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
 
+In this course, I learn the best practices for splitting training and developing test sets, analyzing bias/variance when building deep learning applications. I also learn the standard neural network techniques, including initialization, L2 and dropout regularization, hyperparameter tuning, batch normalization, and gradient checking. Moreover, I apply various optimization algorithms, such as mini-batch gradient descent, Momentum, RMSprop, and Adam. Finally, I familiarize myself with TensorFlow by building a neural network.  
 
 ## Description
 
