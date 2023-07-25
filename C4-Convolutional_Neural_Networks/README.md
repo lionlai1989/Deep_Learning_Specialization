@@ -48,19 +48,14 @@ This section provides a concise summary of each assignment in the course, accomp
   ```
   The original `imagenet` has 1000 output labels. The main idea here is to either freeze all previous layers before the last softmax layer or freeze all layers except the last few ones, and then replace the last layer, consisting of 1000 labels, with a single neuron for binary classification.
 
-- W4A2: [Deep Neural Network Application](https://htmlpreview.github.io/?)  
-A deep 4-layer neural network is built to classify between cat and non-cat images by using all the building blocks in the previous practice. The result shows that the 4-layer neural network has better performance (80%) than the W2A2's 2-layer neural network (72%) on the same test set.  
+- W3A1: [Car Detection with YOLO](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W3A1-Car_Detection_with_YOLO/Autonomous_driving_application_Car_detection.html)
 
-<figure>
-<img src="./W4A2-Deep_Neural_Network_Application/my_images/ikura.36.png" alt="my alt text" height="300"/>
-<figcaption style="font-size: small;">y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. It looks like your deep neural network can recognize me. Good Job!</figcaption>
-</figure>
+  Utilizing just one forward propagation pass through the network, "You Only Look Once" (YOLO) enables predictions for the entire image without sacrificing inference accuracy (the manual sliding window method is not needed anymore). This efficiency makes it highly suitable for embedded systems where real-time immediacy is crucial for success.
 
-<figure>
-<img src="./W4A2-Deep_Neural_Network_Application/my_images/neneko.png" alt="my alt text" height="300"/>
-<figcaption style="font-size: small;">y = 1.0, your L-layer model predicts a "cat" picture. --> I am Neneko from Taiwan. It looks like your deep neural network misrecognize me as a real cat. Hahahaha ...<br>I am also the naughtiest cat in the world.</figcaption>
-</figure>
-
+  <figure>
+  <img src="./W3A1-Car_Detection_with_YOLO/out/test.jpg" alt="my alt text" height="300"/>
+  <figcaption style="font-size: small;">Objects are found after one forward pass through the network.</figcaption>
+  </figure>
 
 ## Reference:
 
