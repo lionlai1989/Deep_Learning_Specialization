@@ -29,12 +29,13 @@ This section provides a concise summary of each assignment in the course, accomp
   <img src="./W2A1-Residual_Networks/images/resnet_kiank.png" alt="my alt text" height="300"/>
   </figure>
 
-  After training, it achieves quite impressive results on the testing dataset. I also use images from different data distributions to see if this model can recognise them. For example, two cats' paw images are used:  
+  After training, it achieves quite impressive results on the testing dataset (accuracy > 80%). I also use images from different data distributions to see if this model can recognise them. For example, two cats' paw images are used:  
   <figure float="left">
   <img src="./W2A1-Residual_Networks/my_images/cat_paw_1.png" height="300"/>
   <img src="./W2A1-Residual_Networks/my_images/cat_paw_2.png" height="300"/>
   <figcaption style="font-size: small;">The first image shows "Class: 4". The second image shows "Class: 0".</figcaption>
   </figure>
+
   Surprisingly, this ResNet model can correctly recognise a real cat's paw, which has four fingers. Unfortunately, the model fails on the second image. I suppose that the data distribution of the second image is too different from the training dataset's distribution.  
 
 - W4A1: [Building your Deep Neural Network Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W4A1-Building_your_Deep_Neural_Network_Step_by_Step/Building_your_Deep_Neural_Network_Step_by_Step.html)  
