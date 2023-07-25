@@ -6,15 +6,20 @@
 
 This section provides a concise summary of each assignment in the course, accompanied by brief descriptions and a few figures.
 
-- W1A1: [Convolutional Neural Networks: Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W1A1-Convolutional_Neural_Networks_Step_by_Step/Convolution_model_Step_by_Step_v1.html)  
+- W1A1: [Convolutional Neural Networks: Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W1A1-Convolutional_Neural_Networks_Step_by_Step/Convolution_model_Step_by_Step_v1.html)
 
-
-- W2A2: [Logistic Regression with a Neural Network mindset](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/Logistic_Regression_with_a_Neural_Network_mindset.html)  
-Logistic regression can be viewed as a shallow neural network with no hidden layers. I constructed a shallow neural network without any hidden layers to perform image classification, specifically distinguishing between cat and non-cat images. The implementation encompassed both forward and backward propagation, as well as inference.  
+  A simple convolutional neural network, which embodies standard components shown in the graph below, is built from scratch, using only NumPy.  
 
 <figure>
-<img src="./W2A2-Logistic_Regression_with_a_Neural_Network_Mindset/my_images/ikura.36.png" alt="my alt text" height="300"/>
-<figcaption style="font-size: small;">y = 1.0, your algorithm predicts a "cat" picture --> I am @ikura.36 from Japan. I am the cutest cat in the world.</figcaption>
+<img src="./W1A1-Convolutional_Neural_Networks_Step_by_Step/images/model.png" alt="my alt text" height="300"/>
+</figure>
+
+- W1A2: [Convolutional Neural Networks: Application](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W1A2-Convolution_Model_Application/Convolution_model_Application.html)
+
+I use TensorFlow to build a simple convolutional neural network to recognize hand gestures on numbers from zero to five.
+
+<figure>
+<img src="./W1A2-Convolution_Model_Application/images/SIGNS.png" alt="my alt text" height="300"/>
 </figure>
 
 - W3A1: [Planar Data Classification with One Hidden Layer](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W3A1-Planar_Data_Classification_with_One_Hidden_Layer/Planar_data_classification_with_one_hidden_layer.html)  
