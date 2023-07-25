@@ -38,8 +38,15 @@ This section provides a concise summary of each assignment in the course, accomp
 
   Surprisingly, this ResNet model can correctly recognise a real cat's paw, which has four fingers. Unfortunately, the model fails on the second image. I suppose that the data distribution of the second image is too different from the training dataset's distribution.  
 
-- W4A1: [Building your Deep Neural Network Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W4A1-Building_your_Deep_Neural_Network_Step_by_Step/Building_your_Deep_Neural_Network_Step_by_Step.html)  
-It constructs all the fundamental elements necessary to build a deep neural network from scratch using NumPy. These building blocks serve as the foundation for constructing deep neural networks in the next practice.  
+- W2A2: [Transfer Learning with MobileNetV2](https://htmlpreview.github.io/?)
+
+  Transfer learning is a vital skill in today's world as it allows us to leverage pre-trained open-source models. For this task, I utilized `MobileNetV2` with pre-trained weights from `ImageNet`.
+  ```
+  base_model = tf.keras.applications.MobileNetV2(input_shape=IMG_SHAPE,
+                                               include_top=True,
+                                               weights='imagenet')
+  ```
+  The original `imagenet` has 1000 output labels. The main idea here is to either freeze all previous layers before the last softmax layer or freeze all layers except the last few ones, and then replace the last layer, consisting of 1000 labels, with a single neuron for binary classification.
 
 - W4A2: [Deep Neural Network Application](https://htmlpreview.github.io/?)  
 A deep 4-layer neural network is built to classify between cat and non-cat images by using all the building blocks in the previous practice. The result shows that the 4-layer neural network has better performance (80%) than the W2A2's 2-layer neural network (72%) on the same test set.  
