@@ -38,7 +38,7 @@ This section provides a concise summary of each assignment in the course, accomp
 
   Surprisingly, this ResNet model can correctly recognise a real cat's paw, which has four fingers. Unfortunately, the model fails on the second image. I suppose that the data distribution of the second image is too different from the training dataset's distribution.  
 
-- W2A2: [Transfer Learning with MobileNetV2](https://htmlpreview.github.io/?)
+- W2A2: [Transfer Learning with MobileNetV2](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W2A2-Transfer_Learning_with_MobileNet/Transfer_learning_with_MobileNet_v1.html)
 
   Transfer learning is a vital skill in today's world as it allows us to leverage pre-trained open-source models. For this task, I utilized `MobileNetV2` with pre-trained weights from `ImageNet`.
   ```
