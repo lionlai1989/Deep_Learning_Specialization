@@ -10,6 +10,9 @@ Pillow
 scikit-learn
 pandas
 imageio
+music21<7.0.0
+mido
+pydub
 
 # DeepLearning AI
 dlai_tools
