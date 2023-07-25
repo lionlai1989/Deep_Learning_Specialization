@@ -16,7 +16,7 @@ This section provides a concise summary of each assignment in the course, accomp
 
 - W1A2: [Convolutional Neural Networks: Application](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W1A2-Convolution_Model_Application/Convolution_model_Application.html)
 
-I use TensorFlow to build a simple convolutional neural network to recognize hand gestures on numbers from zero to five.
+  I use TensorFlow to build a simple convolutional neural network to recognize hand gestures on numbers from zero to five.  
 
 <figure>
 <img src="./W1A2-Convolution_Model_Application/images/SIGNS.png" alt="my alt text" height="300"/>
