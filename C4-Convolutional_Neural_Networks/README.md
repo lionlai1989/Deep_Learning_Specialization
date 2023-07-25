@@ -1,6 +1,4 @@
-# Neural Networks and Deep Learning
-
-
+# Convolutional Neural Networks
 
 ## Description
 
@@ -55,6 +53,15 @@ This section provides a concise summary of each assignment in the course, accomp
   <figure>
   <img src="./W3A1-Car_Detection_with_YOLO/out/test.jpg" alt="my alt text" height="300"/>
   <figcaption style="font-size: small;">Objects are found after one forward pass through the network.</figcaption>
+  </figure>
+
+- W3A2: [Image Segmentation with U-Net](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W3A2-Image_Segmentation_with_U-Net/Image_Segmentation_with_UNet.html)
+
+  U-Net utilizes an hourglass-shaped architecture and transposed convolution to generate an output layer with the same dimensions as the input layer. This network architecture is ideal when the output layer must match the input's dimensions. Additionally, it is well-suited for tasks like dense stereo matching, where per-pixel output is required (each output pixel corresponds to the disparity of the input two pixels).  
+  In this project, I implemented a U-Net from scratch using TensorFlow and trained the model for five epochs. The segmentation results shown below were obtained after the training:  
+
+  <figure>
+  <img src="./W3A2-Image_Segmentation_with_U-Net/experiment_output/segment_result.png" alt="my alt text" height="300"/>
   </figure>
 
 ## Reference:
