@@ -22,14 +22,20 @@ This section provides a concise summary of each assignment in the course, accomp
 <img src="./W1A2-Convolution_Model_Application/images/SIGNS.png" alt="my alt text" height="300"/>
 </figure>
 
-- W3A1: [Planar Data Classification with One Hidden Layer](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W3A1-Planar_Data_Classification_with_One_Hidden_Layer/Planar_data_classification_with_one_hidden_layer.html)  
-It shows that logistic regression cannot perform well on a dataset that is not linearly separable. However, the same dataset can be easily classified using a shallow neural network with just one hidden layer.  
+- W2A1: [Residual Networks](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W2A1-Residual_Networks/Residual_Networks.html)
 
-<figure float="left">
-<img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/logistic_regression_output.png" height="300"/>
-<img src="./W3A1-Planar_Data_Classification_with_One_Hidden_Layer/experiment_output/nn_1layer_4units_output.png" height="300"/>
-<figcaption style="font-size: small;">The left figure shows logistic regression cannot separate a dataset that is not linearly separable while the right figure shows that a neural network using one hidden layer with four units can easily separate the data.</figcaption>
-</figure>
+  A 50-layer ResNet, as shown below, is built and used to recognize hand gestures on numbers from zero to five.  
+  <figure>
+  <img src="./W2A1-Residual_Networks/images/resnet_kiank.png" alt="my alt text" height="300"/>
+  </figure>
+
+  After training, it achieves quite impressive results on the testing dataset. I also use images from different data distributions to see if this model can recognise them. For example, two cats' paw images are used:  
+  <figure float="left">
+  <img src="./W2A1-Residual_Networks/my_images/cat_paw_1.png" height="300"/>
+  <img src="./W2A1-Residual_Networks/my_images/cat_paw_2.png" height="300"/>
+  <figcaption style="font-size: small;">The first image shows "Class: 4". The second image shows "Class: 0".</figcaption>
+  </figure>
+  Surprisingly, this ResNet model can correctly recognise a real cat's paw, which has four fingers. Unfortunately, the model fails on the second image. I suppose that the data distribution of the second image is too different from the training dataset's distribution.  
 
 - W4A1: [Building your Deep Neural Network Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C1-Neural_Networks_and_Deep_Learning/W4A1-Building_your_Deep_Neural_Network_Step_by_Step/Building_your_Deep_Neural_Network_Step_by_Step.html)  
 It constructs all the fundamental elements necessary to build a deep neural network from scratch using NumPy. These building blocks serve as the foundation for constructing deep neural networks in the next practice.  
