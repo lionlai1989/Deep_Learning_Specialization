@@ -70,6 +70,15 @@ This section provides a concise summary of each assignment in the course, accomp
 
   I developed a face recognition system by leveraging the open-source [Inception model](https://arxiv.org/abs/1409.4842). This system can accurately recognize both my personal image and any other person by using just one image as a reference. Below is a demonstration of its capabilities: (**In progress**)
 
+- W4A2: [Art Generation with Neural Style Transfer](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W4A2-Art_Generation_with_Neural_Style_Transfer/Art_Generation_with_Neural_Style_Transfer.html)
+
+  Generative AI has been experiencing rapid growth, becoming an essential tool in various professions, including graphic design, programming, journalism, and more. By utilizing the open-source [VGG19](https://www.tensorflow.org/api_docs/python/tf/keras/applications/vgg19/VGG19) architecture, I humbly present my first generative AI model, capable of generating a Van Gogh-style image when provided with an arbitrary input image. Below, you can see a Van Gogh-style image produced using my selfie as the input:  
+  <figure float="left">
+  <img src="./W4A2-Art_Generation_with_Neural_Style_Transfer/my_images/my_face_content.png" height="300"/>
+  <img src="./W4A2-Art_Generation_with_Neural_Style_Transfer/my_images/Van_Gogh_Starry_Night_style.png" height="300"/>
+  <img src="./W4A2-Art_Generation_with_Neural_Style_Transfer/output/image_10000.jpg" height="300"/>
+  <figcaption style="font-size: small;">Left: My selfie. Middle: Van Gogh's Starry Night. Right: Van Gogh-style selfie</figcaption>
+  </figure>
 
 ## Reference:
 
