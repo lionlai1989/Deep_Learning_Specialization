@@ -1,6 +1,6 @@
 # Deep Learning Specialization
 
-This repository comprises a comprehensive collection of materials for the course of [Deep Learning Specialization, Coursera/DeepLearning.AI](https://www.coursera.org/specializations/deep-learning), including my own solutions to the practice problems and personal notes accumulated during the course.
+This repository comprises a comprehensive collection of materials for the course of [Deep Learning Specialization, offered by Coursera and DeepLearning.AI](https://www.coursera.org/specializations/deep-learning), including my own solutions to the practice problems and personal notes accumulated during the course.
 
 ## Description
 This Specialization explores fundamental principles in deep learning and is divided into five series courses, each offering thorough explanation and unique insights into this dynamic field.
