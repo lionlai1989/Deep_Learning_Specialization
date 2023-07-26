@@ -66,6 +66,11 @@ This section provides a concise summary of each assignment in the course, accomp
   <img src="./W3A2-Image_Segmentation_with_U-Net/experiment_output/segment_result.png" alt="my alt text" height="300"/>
   </figure>
 
+- W4A1: [Face Recognition](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C4-Convolutional_Neural_Networks/W4A1-Face_Recognition/Face_Recognition.html)
+
+  I developed a face recognition system by leveraging the open-source [Inception model](https://arxiv.org/abs/1409.4842). This system can accurately recognize both my personal image and any other person by using just one image as a reference. Below is a demonstration of its capabilities: (**In progress**)
+
+
 ## Reference:
 
   - Week 1:
