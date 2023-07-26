@@ -1,5 +1,7 @@
 # Convolutional Neural Networks
 
+Convolutional Neural Networks (CNNs) have consistently demonstrated their pivotal role in computer vision through their remarkable success in various computer vision applications, including autonomous driving, face recognition, art generation, robotics, and more. This course provides me with comprehensive knowledge about CNNs.
+
 ## Description
 
 This section provides a concise summary of each assignment in the course, accompanied by brief descriptions and a few figures.
