@@ -13,6 +13,8 @@ imageio
 music21<7.0.0
 mido
 pydub
+tqdm
+emoji<2.0.0
 
 # DeepLearning AI
 dlai_tools
