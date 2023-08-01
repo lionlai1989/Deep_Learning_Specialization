@@ -15,6 +15,7 @@ mido
 pydub
 tqdm
 emoji<2.0.0
+faker
 
 # DeepLearning AI
 dlai_tools
