@@ -3,3 +3,7 @@ C4-Convolutional_Neural_Networks/W3A1-Car_Detection_with_YOLO/images/*.jpg filte
 C4-Convolutional_Neural_Networks/W3A1-Car_Detection_with_YOLO/nb_images/*.mp4 filter=lfs diff=lfs merge=lfs -text
 C4-Convolutional_Neural_Networks/W3A1-Car_Detection_with_YOLO/nb_images/*.png filter=lfs diff=lfs merge=lfs -text
 C4-Convolutional_Neural_Networks/W3A1-Car_Detection_with_YOLO/model_data/variables/variables.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+C4-Convolutional_Neural_Networks/W4A1-Face_Recognition/images.gz filter=lfs diff=lfs merge=lfs -text
+C4-Convolutional_Neural_Networks/W4A1-Face_Recognition/keras-facenet-h5/ filter=lfs diff=lfs merge=lfs -text
+C4-Convolutional_Neural_Networks/W4A1-Face_Recognition/keras-facenet_tf23/ filter=lfs diff=lfs merge=lfs -text
+C4-Convolutional_Neural_Networks/W4A1-Face_Recognition/nn4.small2.v7.h5 filter=lfs diff=lfs merge=lfs -text
