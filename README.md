@@ -21,7 +21,7 @@ This Specialization explores fundamental principles in deep learning and is divi
 
   While disregarding the constraints of available training data and computational resources, a fully connected network has the potential to perform all the tasks a CNN can accomplish. This course explains the rationale behind utilizing CNNs to replace fully connected networks. It then covers the foundational concepts necessary to construct a CNN, followed by an introduction to classic networks such as LeNet-5, AlexNet, and VGG-16. Furthermore, the course introduces recent and popular networks, including Residual and Inception networks, and comprehensive explanations of the You Only Look Once (YOLO) algorithm and U-Net.
 
-- Sequence Models (In progress):
+- [Sequence Models](https://github.com/lionlai1989/Deep_Learning_Specialization/tree/master/C5-Sequence_Models):
 
 ## Getting Started
 All the results in Jupyter Notebook can be reproduced by following the instructions below.
