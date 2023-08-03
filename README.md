@@ -65,8 +65,8 @@ Any feedback, comments, and questions about this repository are welcome. However
 
 ## Version History
 
-* 0.0.1
-    * Finish Deep Learning Specialization in 2023.
+* 1.0.0
+    * Finish the Deep Learning Specialization by 3rd August 2023.
 
 <!-- 
 Use "python3.10" and "numpy >= 1.20"
