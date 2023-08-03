@@ -16,6 +16,7 @@ pydub
 tqdm
 emoji<2.0.0
 faker
+transformers
 
 # DeepLearning AI
 dlai_tools
