@@ -6,7 +6,7 @@
 
 This section provides a concise summary of each assignment in the course, accompanied by brief descriptions and a few figures.
 
-- W1A1: [Building a Recurrent Neural Network - Step by Step](https://htmlpreview.github.io/https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W1A1-Building_a_Recurrent_Neural_Network_Step_by_Step/Building_a_Recurrent_Neural_Network_Step_by_Step.html)  
+- W1A1: [Building a Recurrent Neural Network - Step by Step](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W1A1-Building_a_Recurrent_Neural_Network_Step_by_Step/Building_a_Recurrent_Neural_Network_Step_by_Step.html)  
   I implement a basic RNN and LSTM model with only **Numpy**. No other machine learning framework is used.
   
   <figure float="left">
@@ -14,11 +14,16 @@ This section provides a concise summary of each assignment in the course, accomp
   <figcaption style="font-size: small;">An LSTM network comprises three gates, which can keep the information flowing from the current time step to the next, mitigating the vanishing gradient problem.</figcaption>
   </figure>
 
-- W1A2: [Character level language model - Dinosaurus Island](https://htmlpreview.github.io/)  
+- W1A2: [Character level language model - Dinosaurus Island](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W1A2-Dinosaur_Island_Character_Level_Language_Modeling/Dinosaurus_Island_Character_level_language_model.html)  
   A language model is a probability model designed to represent the language domain. Here, I use 1536 dinosaur names to train a character-level language model to generate artificial names for new dinosaurs. For instance, `Eiaantoe` would probably be a good name for a newly found dinosaur.
 
-- W1A2: [Improvise a Jazz Solo with an LSTM Network](https://htmlpreview.github.io/https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W1A2-Dinosaur_Island_Character_Level_Language_Modeling/Dinosaurus_Island_Character_level_language_model.html)  
+- W1A2: [Improvise a Jazz Solo with an LSTM Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W1A3-Improvise_a_Jazz_Solo_with_an_LSTM_NetworkImprovise_a_Jazz_Solo_with_an_LSTM_Network_v4.html)  
+  An improvised Jazz solo is generated. You can hear the music for yourself.
+  [Click here to download the MP3 file](./W1A3-Improvise_a_Jazz_Solo_with_an_LSTM_Network/output/rendered.wav)
 
+
+
+- W1A2: [](https://htmlpreview.github.io/?)  
 
 ## Reference:
 
