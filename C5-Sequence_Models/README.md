@@ -24,8 +24,8 @@ This section provides a concise summary of each assignment in the course, accomp
 - W2A1: [Debiasing Word Embeddings w.r.t. Gender](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W2A1-Operations_on_Word_Vectors_Debiasing/Operations_on_word_vectors_v2a.html)  
   Due to the imbalance and insufficient training data used to train word embeddings, there exists biases in word embeddings. In this task, I first projected biased (non-gender specific) words into non-bias axis and then equalized gender-specific words. It can be summarized by the following two graphs.
   <figure float="left">
-  <img src="./W2A1-Operations_on_Word_Vectors_Debiasing/images/neutral.png" height="300"/>
-  <img src="./W2A1-Operations_on_Word_Vectors_Debiasing/images/equalize10.png" height="300"/>
+  <img src="./W2A1-Operations_on_Word_Vectors_Debiasing/images/neutral.png" width="600"/>
+  <img src="./W2A1-Operations_on_Word_Vectors_Debiasing/images/equalize10.png" width="600"/>
   <figcaption style="font-size: small;">.</figcaption>
   </figure>
 
