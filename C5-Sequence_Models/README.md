@@ -32,13 +32,13 @@ This section provides a concise summary of each assignment in the course, accomp
 - W2A2: [Emojify! - Automatically Generate Emojis from Texts](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W2A2-Emojify/Emoji_v3a.html)  
   Given a sentence, I can assign the most suitable emoji to this sentence based on the context of it. The first model sums up the word vectors and classifies the output. The problem of the first model is that it doesn't consider the order of words. The second model uses LSTM architecture. (**Needs to be fixed**)
 
-- W2A1: [](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+- W3A1: [Neural Machine Translation](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
 
-- W2A1: [](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+- W3A2: [Trigger Word Detection](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
 
-- W2A1: [](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+- W4A1: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
 
-- W2A1: [](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+
 ## Reference:
 
 - Week 1:
