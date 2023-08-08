@@ -32,7 +32,34 @@ This section provides a concise summary of each assignment in the course, accomp
 - W2A2: [Emojify! - Automatically Generate Emojis from Texts](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W2A2-Emojify/Emoji_v3a.html)  
   Given a sentence, I can assign the most suitable emoji to this sentence based on the context of it. The first model sums up the word vectors and classifies the output. The problem of the first model is that it doesn't consider the order of words. The second model uses LSTM architecture. (**Needs to be fixed**)
 
-- W3A1: [Neural Machine Translation](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+- W3A1: [Neural Machine Translation](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W3A1-Neural_Machine_Translation_with_Attention/Neural_machine_translation_with_attention_v4a.html)  
+  Understanding how attention mechnism works is a prerequisite to understand Transformer network. In this task, I use attention mechanism and LSTM network to build a naive machine translation model which can translate human-readable dates ("25th of June, 2009") into machine-readable dates ("2009-06-25"). Here is the testing result:
+  ```
+  1/1 [==============================] - 2s 2s/step
+  source: 3 May 1979
+  output: 1979-05-03 
+  
+  1/1 [==============================] - 0s 18ms/step
+  source: 21th of August 2016
+  output: 2016-08-21 
+  
+  1/1 [==============================] - 0s 19ms/step
+  source: Tue 10 Jul 2007
+  output: 2007-07-10 
+  
+  1/1 [==============================] - 0s 19ms/step
+  source: Saturday May 9 2018
+  output: 2018-05-09 
+  
+  1/1 [==============================] - 0s 18ms/step
+  source: March 3rd 2001
+  output: 2001-03-03 
+  ```
+  Moreover, we can visualize attention mechnism to see how the output sequence pays attention to which word in the input sequence. For instance, it shows `oct` is highly associated to `10`.
+  <figure float="left">
+  <img src="./W3A1-Neural_Machine_Translation_with_Attention/experiment_output/attention_map.png" width="600"/>
+  <figcaption style="font-size: small;">The darker color indicates that the assiciation between two characters is closer.</figcaption>
+  </figure>
 
 - W3A2: [Trigger Word Detection](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
 
