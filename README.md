@@ -68,6 +68,14 @@ Any feedback, comments, and questions about this repository are welcome. However
 * 1.0.0
     * Finish the Deep Learning Specialization by 3rd August 2023.
 
+
+## Reference
+- Disable annoying tensorflow DEBUG message. Put the following code at the start of the nodebook.
+```
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2', '3'}. 3: NONE 
+```
+
 <!-- 
 Use "python3.10" and "numpy >= 1.20"
 
