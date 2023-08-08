@@ -73,7 +73,7 @@ Any feedback, comments, and questions about this repository are welcome. However
 - Disable annoying tensorflow DEBUG message. Put the following code at the start of the nodebook.
 ```
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2', '3'}. 3: NONE 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # or any {'0', '1', '2', '3'}. 3: NONE
 ```
 
 <!-- 
