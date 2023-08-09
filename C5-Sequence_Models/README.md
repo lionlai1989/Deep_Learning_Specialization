@@ -64,8 +64,19 @@ This section provides a concise summary of each assignment in the course, accomp
 - W3A2: [Trigger Word Detection](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W3A2-Trigger_Word_Detection/Trigger_word_detection_v2a.html)  
   I build a keyword detection model to spot the keyword `activate`. Here is [my input voice](./W3A2-Trigger_Word_Detection/my_audio/lion_activate.wav) "Hello. I am Lion. Please activate my computer. Thank you." The output will have a chime sound when the keyword `activate` is detected. [You can hear the output here.](./W3A2-Trigger_Word_Detection/chime_output.wav)
 
-- W4A1: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+- W4A1: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/W4A1-Transformer_Network/C5_W4_A1_Transformer_Subclass_v1.html)  
+  Transformer network is one of the fundamental network that is widely used in applications nowadays. I believe it's one component of the fundamental model. I built a Transformer network by using basic neural networks components.
+  <figure float="left">
+  <img src="./W4A1-Transformer_Network/transformer.png" width="600"/>
+  <figcaption style="font-size: small;">Transformer network for machine translation.</figcaption>
+  </figure>
 
+
+<!-- - W4A2: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+
+- W4A3: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+
+- W4A4: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)   -->
 
 ## Reference:
 
