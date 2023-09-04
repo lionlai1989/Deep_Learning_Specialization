@@ -23,6 +23,8 @@ This Specialization explores fundamental principles in deep learning and is divi
 
 - [Sequence Models](https://github.com/lionlai1989/Deep_Learning_Specialization/tree/master/C5-Sequence_Models):
 
+  RNN models can be used to handle problems with sequential data. I first built an RNN model using only NumPy to familiarize myself with RNNs. Later, I used TensorFlow to build applications such as keyword spotting, machine translation, music synthesis, and more. Moreover, I have a full understanding of attention mechanisms and the transformer model.
+
 ## Getting Started
 All the results in Jupyter Notebook can be reproduced by following the instructions below.
 

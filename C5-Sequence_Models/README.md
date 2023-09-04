@@ -1,6 +1,6 @@
 # Sequence Models
 
-
+In the fifth course of the Deep Learning Specialization, I will become familiar with sequence models and their exciting applications such as speech recognition, music synthesis, chatbots, machine translation, natural language processing (NLP), and more. By the end, I will be able to build and train Recurrent Neural Networks (RNNs) and commonly-used variants such as GRUs and LSTMs; apply RNNs to Character-level Language Modeling; gain experience with natural language processing and Word Embeddings; and use HuggingFace tokenizers and transformer models to solve different NLP tasks such as NER and Question Answering.
 
 ## Description
 
@@ -71,12 +71,14 @@ This section provides a concise summary of each assignment in the course, accomp
   <figcaption style="font-size: small;">Transformer network for machine translation.</figcaption>
   </figure>
 
-
-<!-- - W4A2: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
+<!-- NOTE: Finish this when I have some free time.
+- W4A2: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
 
 - W4A3: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)  
 
-- W4A4: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)   -->
+- W4A4: [Transformer Network](https://htmlpreview.github.io/?https://github.com/lionlai1989/Deep_Learning_Specialization/blob/master/C5-Sequence_Models/)
+-->
+
 
 ## Reference:
 
